@@ -5,15 +5,15 @@ This year I feel stronger and way more confident with my coding skills, but at t
 
 |      Puzzle         |           Language             |     Completed    | Target met on time | Specials |
 |:-------------------:|:------------------------------:|:----------------:|:------------------:|:----------:|
-| [Day 1](./day_1)    |  [Python](./day_1/day_1.py)    |:heavy_check_mark:|:star2::star2:||
-| [Day 2](./day_2)    |  [Python](./day_2/day_2.py)    |:heavy_check_mark:|:star2::star2:| Rock, Paper, Scissors!|
-| [Day 3](./day_3)    |  [Python](./day_3/day_3.py)    |:heavy_check_mark:|:star2::star2:| Intersections |
-| [Day 4](./day_4)    |  [Python](./day_4/day_4.py)    |:heavy_check_mark:|:star2::star2:||
-| [Day 5](./day_5)    |  [Python](./day_5/day_5.py)    |:heavy_check_mark:|:star2::star2:||
-| [Day 6](./day_6)    |  [Python](./day_6/day_6.py)    |:heavy_check_mark:|:star2::star2:||
-| [Day 7](./day_7)    |  [Python](./day_7/day_7.py)    | not yet released |||
-| [Day 8](./day_8)    |  [Python](./day_8/day_8.py)    | not yet released |||
-| [Day 9](./day_9)    |  [Python](./day_9/day_9.py)    | not yet released |||
+| [Day 01](./day_01)  |  [Python](./day_01/day_01.py)  |:heavy_check_mark:|:star2::star2:||
+| [Day 02](./day_02)  |  [Python](./day_02/day_02.py)  |:heavy_check_mark:|:star2::star2:| Rock, Paper, Scissors!|
+| [Day 03](./day_03)  |  [Python](./day_03/day_03.py)  |:heavy_check_mark:|:star2::star2:| Intersections |
+| [Day 04](./day_04)  |  [Python](./day_04/day_04.py)  |:heavy_check_mark:|:star2::star2:||
+| [Day 05](./day_05)  |  [Python](./day_05/day_05.py)  |:heavy_check_mark:|:star2::star2:||
+| [Day 06](./day_06)  |  [Python](./day_06/day_06.py)  |:heavy_check_mark:|:star2::star2:||
+| [Day 07](./day_07)  |  [Python](./day_07/day_07.py)  | not yet released |||
+| [Day 08](./day_08)  |  [Python](./day_08/day_08.py)  | not yet released |||
+| [Day 09](./day_09)  |  [Python](./day_09/day_09.py)  | not yet released |||
 | [Day 10](./day_10)  |  [Python](./day_10/day_10.py)  | not yet released |||
 | [Day 11](./day_11)  |  [Python](./day_11/day_11.py)  | not yet released |||
 | [Day 12](./day_12)  |  [Python](./day_12/day_12.py)  | not yet released |||
@@ -27,8 +27,6 @@ This year I feel stronger and way more confident with my coding skills, but at t
 | [Day 20](./day_20)  |  [Python](./day_20/day_20.py)  | not yet released |||
 | [Day 21](./day_21)  |  [Python](./day_21/day_21.py)  | not yet released |||
 | [Day 22](./day_22)  |  [Python](./day_22/day_22.py)  | not yet released |||
-
-| [Day 23](./day_23)  |  [Python](./day_23/day_23.py)  ||| |
-| [Day 24](./day_24)  |  [Python](./day_24/day_24.py)  ||| |
-| [Day 25](./day_25)  |  [Python](./day_25/day_25.py)  ||| |
-
+| [Day 23](./day_23)  |  [Python](./day_23/day_23.py)  | not yet released |||
+| [Day 24](./day_24)  |  [Python](./day_24/day_24.py)  | not yet released |||
+| [Day 25](./day_25)  |  [Python](./day_25/day_25.py)  | not yet released |||
