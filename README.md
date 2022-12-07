@@ -11,7 +11,7 @@ This year I feel stronger and way more confident with my coding skills, but at t
 | [Day 04](./day_04)  |  [Python](./day_04/day_04.py)  |:heavy_check_mark:|:star2::star2:||
 | [Day 05](./day_05)  |  [Python](./day_05/day_05.py)  |:heavy_check_mark:|:star2::star2:||
 | [Day 06](./day_06)  |  [Python](./day_06/day_06.py)  |:heavy_check_mark:|:star2::star2:||
-| [Day 07](./day_07)  |  [Python](./day_07/day_07.py)  | not yet released |||
+| [Day 07](./day_07)  |  [Python](./day_07/day_07.py)  |:heavy_check_mark:|:star2::star2:| Traverse via recursion x2 |
 | [Day 08](./day_08)  |  [Python](./day_08/day_08.py)  | not yet released |||
 | [Day 09](./day_09)  |  [Python](./day_09/day_09.py)  | not yet released |||
 | [Day 10](./day_10)  |  [Python](./day_10/day_10.py)  | not yet released |||
