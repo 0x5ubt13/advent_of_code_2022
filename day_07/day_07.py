@@ -1,34 +1,30 @@
-def read_lines(filename):
-    clean_data = []
-    with open(filename, "r") as f:
-        data = f.readlines()
-        for line in data:
-            clean_data.append(line.rstrip())
-    return clean_data
-
+#!/usr/bin/python3
 
 def solve(data):
     # ------------------------------- Part 1 -------------------------------
-    tree = {"/": {"dir_size": 0},}
-    path = []
+    # Process the commands and save a map of the filesystem
+    level, tree, path = 0, {"/": {"dir_size": 0}}, []
     cwd = tree["/"]
-    level = 0
+
     for line in data:
-        # Read command
-        command = line.split(" ")
-        if command[0] == '$':
+        # Read terminal data
+        output = line.split(" ")
+        if output[0] == '$':
+            command = output
             if command[1] == "cd":
                 # Change dir, manage infra
                 new_dir = command[2]
                 if new_dir == "/":
+                    # Change to root
                     cwd = tree["/"]
                     level = 0
-                    # print("changing back to root")
 
                 elif new_dir == "..":
-                    level, path, cwd, tree = lvl_up(level, path, cwd, tree)
+                    # Go up a level
+                    level, tree, path, cwd = lvl_up(level, tree, path, cwd)
 
                 else:
+                    # Register new dir: init subdict and change to it
                     level += 1
                     path.append(new_dir)
                     try:
@@ -36,25 +32,19 @@ def solve(data):
                     except KeyError:
                         pass
                     cwd = cwd[new_dir]
-                    # print("New dir")
-
-            # elif command[1] == "ls":
-            else:
-                pass
-                # don't do anything
+                
+            continue
              
-        else:
-            size = command[0]
-            name = command[1]
-            # print(cwd)
-            if size != "dir":
-                cwd[name] = int(size)
-                cwd["dir_size"] += int(size)
+        # Process file in current dir -> size = output[0], name = output[1]
+        if output[0] != "dir":
+            cwd[output[1]] = int(output[0])
+            cwd["dir_size"] += int(output[0])
 
-
+    # Out of the loop, finish traversing up
     while level > 0:
-        level, path, cwd, tree = lvl_up(level, path, cwd, tree)
-        
+        level, tree, path, cwd = lvl_up(level, tree, path, cwd)
+    
+    # Solve part 1
     sizes = recursively_calculate_dir_sizes(tree["/"], 0)
     print("Part 1 ->", sizes)
 
@@ -63,6 +53,7 @@ def solve(data):
     required_space = 30000000
     size_to_delete = required_space - unused_space
 
+    # Solve part 2
     delete_candidates = recursively_calculate_dir_to_delete(tree, size_to_delete, [])
     
     print(f"Part 2 -> {delete_candidates[0]}")
@@ -94,7 +85,7 @@ def recursively_calculate_dir_sizes(tree, sizes):
     return sizes
     
 
-def lvl_up(level, path, cwd, tree):
+def lvl_up(level, tree, path, cwd):
     level -= 1
     last_dir = cwd
     path.pop()
@@ -103,7 +94,16 @@ def lvl_up(level, path, cwd, tree):
         cwd = cwd[path[i]]
     cwd["dir_size"] += last_dir["dir_size"]
 
-    return level, path, cwd, tree
+    return level, tree, path, cwd
+
+
+def read_lines(filename):
+    clean_data = []
+    with open(filename, "r") as f:
+        data = f.readlines()
+        for line in data:
+            clean_data.append(line.rstrip())
+    return clean_data
 
 
 if __name__ == '__main__':
