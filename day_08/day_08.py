@@ -82,7 +82,7 @@ def solve(grid):
 
             # New tree, go right
             coords.x += 1
-        # New row, reset x and go down
+        # New row, reset x a go down
         coords.y += 1
         coords.x = 0
 
@@ -92,19 +92,15 @@ def solve(grid):
 def read_grid(filename):
     grid = []
     with open(filename, "r") as f:
-        data = f.readlines()
-        for line in data:
-            grid.append([line.rstrip()])
-    
-    shadow_grid = []
-    for i in range(len(grid)):
-        for number in grid[i]:
+        for line in f:
             row = []
-            num = str(number)
-            for digit in num:
-                row.append(int(digit))
-            shadow_grid.append(row)
-    return shadow_grid
+            for number in line.rstrip():
+                num = str(number)
+                for digit in num:
+                    row.append(int(digit))
+            grid.append(row)
+
+    return grid
 
 
 if __name__ == '__main__':
