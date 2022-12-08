@@ -95,8 +95,7 @@ def read_grid(filename):
         for line in f:
             row = []
             for number in line.rstrip():
-                num = str(number)
-                for digit in num:
+                for digit in str(number):
                     row.append(int(digit))
             grid.append(row)
 
