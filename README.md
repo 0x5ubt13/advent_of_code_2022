@@ -14,7 +14,7 @@ This year I feel stronger and way more confident with my coding skills, but at t
 | [Day 07](./day_07)  |  [Python](./day_07/day_07.py)  |:heavy_check_mark:|:star2::star2:| Traverse dict via recursion x2 |
 | [Day 08](./day_08)  |  [Python](./day_08/day_08.py)  |:heavy_check_mark:|:star2::star2:| 99x99 grid, Coordinates class |
 | [Day 09](./day_09)  |  [Python](./day_09/day_09.py)  |:x:|:star2:| Moving a rope over a grid |
-| [Day 10](./day_10)  |  [Python](./day_10/day_10.py)  | not yet released |||
+| [Day 10](./day_10)  |  [Python](./day_10/day_10.py)  |:heavy_check_mark:|:star2::star2:| CRT image render, racing the beam |
 | [Day 11](./day_11)  |  [Python](./day_11/day_11.py)  | not yet released |||
 | [Day 12](./day_12)  |  [Python](./day_12/day_12.py)  | not yet released |||
 | [Day 13](./day_13)  |  [Python](./day_13/day_13.py)  | not yet released |||
