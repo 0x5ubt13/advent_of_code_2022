@@ -16,7 +16,7 @@ This year I feel stronger and way more confident with my coding skills, but at t
 | [Day 09](./day_09)  |  [Python](./day_09/day_09.py)  |:x:|:star2:| Moving a rope over a grid |
 | [Day 10](./day_10)  |  [Python](./day_10/day_10.py)  |:heavy_check_mark:|:star2::star2:| CRT image render, racing the beam |
 | [Day 11](./day_11)  |  [Python](./day_11/day_11.py)  |:heavy_check_mark:|:star2::star2:| Monkey in the Middle |
-| [Day 12](./day_12)  |  [Python](./day_12/day_12.py)  | not yet released |||
+| [Day 12](./day_12)  |  [Python](./day_12/day_12.py)  |:heavy_check_mark:|:star2::star2:| Dijkstra's algorithm |
 | [Day 13](./day_13)  |  [Python](./day_13/day_13.py)  | not yet released |||
 | [Day 14](./day_14)  |  [Python](./day_14/day_14.py)  | not yet released |||
 | [Day 15](./day_15)  |  [Python](./day_15/day_15.py)  | not yet released |||
