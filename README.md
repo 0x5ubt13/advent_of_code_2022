@@ -18,15 +18,5 @@ This year I feel stronger and way more confident with my coding skills, but at t
 | [Day 11](./day_11)  |  [Python](./day_11/day_11.py)  |:heavy_check_mark:|:star2::star2:| Monkey in the Middle |
 | [Day 12](./day_12)  |  [Python](./day_12/day_12.py)  |:heavy_check_mark:|:star2::star2:| Dijkstra's algorithm |
 | [Day 13](./day_13)  |  [Python](./day_13/day_13.py)  |:x:|:x:| Recursive list tree parsing |
-| [Day 14](./day_14)  |  [Python](./day_14/day_14.py)  | not yet released |||
-| [Day 15](./day_15)  |  [Python](./day_15/day_15.py)  | not yet released |||
-| [Day 16](./day_16)  |  [Python](./day_16/day_16.py)  | not yet released |||
-| [Day 17](./day_17)  |  [Python](./day_17/day_17.py)  | not yet released |||
-| [Day 18](./day_18)  |  [Python](./day_18/day_18.py)  | not yet released |||
-| [Day 19](./day_19)  |  [Python](./day_19/day_19.py)  | not yet released |||
-| [Day 20](./day_20)  |  [Python](./day_20/day_20.py)  | not yet released |||
-| [Day 21](./day_21)  |  [Python](./day_21/day_21.py)  | not yet released |||
-| [Day 22](./day_22)  |  [Python](./day_22/day_22.py)  | not yet released |||
-| [Day 23](./day_23)  |  [Python](./day_23/day_23.py)  | not yet released |||
-| [Day 24](./day_24)  |  [Python](./day_24/day_24.py)  | not yet released |||
-| [Day 25](./day_25)  |  [Python](./day_25/day_25.py)  | not yet released |||
+
+Stopping for this year due to lack of time! :x:
